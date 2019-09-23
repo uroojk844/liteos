@@ -1,0 +1,219 @@
+body{
+    user-select: none;
+}
+
+#watch_container{
+    position: relative;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left;
+}
+
+.cell{
+    float: left;
+    font-size: 6vw;
+    color: white;
+    padding: 10px 8px;
+}
+
+.separator{
+    padding: 6px 0;
+}
+
+#date{
+    color: white;
+    padding: 10px;
+    font-size: 2.7vw;
+    text-align: center;
+    width: 100%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#apps{
+    position: absolute;
+    bottom: 15px;
+    width:100%;
+    display: flex;
+}
+
+#apps .col{
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 6vw;
+}
+
+#apps i{
+    transition: 0.25s;
+    padding: 15px 17px;
+}
+
+#apps .three i{
+    border: 1px solid white;
+    padding: 15px 17px;
+    border-radius: 50%;
+}
+
+#apps .three i:hover{
+    background: rgba(255,255,255,0.5);
+    color: #333;
+    border-color: #333;
+}
+
+#apps .one i:hover{
+    padding: 15px 17px;
+    font-size: 5vw;
+}
+
+#apps .two i:hover{
+    font-size: 5vw;
+    padding: 15px;
+}
+
+#apps .five i:hover{
+    font-size: 5vw;
+    padding: 15px;
+}
+
+#apps .four i:hover{
+    font-size: 5vw;
+    padding: 15px;
+}
+
+#calc_body form{
+    background: white;
+
+}
+
+#home{
+    background-image: url("../fantasy-nature-backgrounds-10.jpg");
+    background-size: cover;
+    transition: 0.5s;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#menu {
+    background-image: url("../fantasy-nature-backgrounds-10.jpg");
+    background-size: cover;
+    transition: 0.5s;
+    width: 100vw;
+    height: 0;
+    overflow: hidden;
+}
+
+#menu_container{
+    width:80vw;
+    height: 70vh;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#row{
+    display: flex;
+    width: 100%;
+}
+
+#row .col{
+    text-align: center;
+    width:100%;
+    padding: 25px;
+    font-size: 6vw;
+}
+
+#browser {
+    background:white;
+    transition: 0.5s;
+    width: 100vw;
+    height:0;
+    overflow: hidden;
+}
+
+#browser iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#setting{
+    transition: 0.5s;
+    width: 100vw;
+    height: 0;
+    overflow: hidden;
+}
+
+#chrome {
+    background:white;
+    transition: 0.5s;
+    width: 100vw;
+    height:0;
+    overflow: hidden;
+}
+
+#chrome iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#chrome .w3-col.s1 i{
+    padding:13px 8px;
+}
+
+#search{
+    background: #fff;
+    border: 0;
+    padding: 5px 8px;
+    color: gray;
+    line-height: 1;
+    width: 100%;
+}
+
+#searchcontainer{border-radius: 5px;overflow: hidden;}
+#searchcontainer div{
+    float: left;
+}
+
+.searchcenter{
+    position: relative;
+}
+
+#search::placeholder{
+    color: gray;
+}
+
+#srcbtn{
+    border:0;
+    background: rgb(107, 107, 107);
+}
+#srcbtn i{
+    padding: 7px;
+}
+
+#calculator {
+    transition: 0.5s;
+    width: 100vw;
+    height: 0;
+    overflow: hidden;
+}
+
+#status_bar{
+}
+
+#camera{
+    transition: 0.5s;
+    width: 100vw;
+    height: 0;
+    overflow: hidden;
+}
+
+#camera iframe{
+    width: 100%;
+    height:100%;
+}

@@ -1,0 +1,33 @@
+#calc_body{
+
+    background: white;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    float: left;
+    padding: 5px;
+}
+
+#calc_body .button{
+    text-align: center;
+    width: 25%;
+    background: dodgerblue;
+    float: left;
+}
+
+#calc_body #display{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 2px;
+    border: .25px solid gray;
+}
+
+#calc_body .equal{
+    width: 75%;
+}
+#calc_body .button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,49 @@
+body{
+    background: #2b2b2b;
+}
+
+hr{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin: 0;
+}
+
+#name{
+    color: white;
+    font-size:4vw ;
+    position: relative;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    top:10vh;
+}
+
+#setting_container{
+    position: relative;
+    top: 20vh;
+    color: white;
+}
+
+#setting_container .w3-row{
+    padding: 10px;
+}
+
+.s2 i{
+    font-size: 7vw;
+}
+
+.s10{
+    padding-top: 5px;
+    font-size: 2.5vw;
+}
+
+#setting_container.w3-row .w3-row:hover{
+    background: black;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+.close{
+    position: relative;
+}
